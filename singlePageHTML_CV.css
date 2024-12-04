@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-width: 735px;
+    min-height: 953px;
+    border: 2.5px solid black;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 84%;
+    height: 88%;
+}
+
+.headLine {
+    width: 82%;
+    height: 2.5px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.yourName {
+    font-weight: 400;
+}
+
+.CV_second_header {
+    font-weight: 400;
+    color: rgb(116, 116, 255);
+}
+
+.CV_third_header {
+    font-weight: 300;
+    color: rgb(2, 171, 2);
+    margin-bottom: 12px;
+}
+
+.addMarginTop {
+    margin-top: 12px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+h3 {
+    margin: 3px 0;
+}
+
+ul {
+    padding-left: 18px;
+}
